@@ -16,6 +16,22 @@ const multiLine = "I love you\n"
 const multiLine2 = `I love you
 I miss you
 no. I don't need you
-Baily road e dorkar nai.`
+Baily road e dorkar nai.`//\n deoya lage na.enter dilei new line niye ney
 
 console.log(multiLine2);
+
+
+//new
+const friends = ['abul', 'babul', 'kabul', 'sabul'];
+const count = 5;
+const old = '<h3 class="friend-name">Friend-5</h3>'
+const old2 = '<h3 class="friend-name">Friend-' + count + '</h3>';
+const old2 = `<h3 class="friend-name">Friend-${count}</h3>`;
+const new1 = `<h3 class="friend-name">Friend-${friends.length}</h3>`;
+
+const first = 'Mamun';
+const last = 'Chowdhury';
+const fullOld = 'This person name is ' + first + ' ' + last;
+const fullNew = `This person name is: ${first} ${last}. Has money ${(friends.length + 10) * 500}. He lives in Dhaka.`;
+
+console.log(fullNew);
