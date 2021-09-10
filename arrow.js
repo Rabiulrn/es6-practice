@@ -5,6 +5,8 @@
 // const doubleIt = function myFun(num){ //fn declairation
 //     return num * 2;
 // }
+//const doubleIt = num => num * 2; //1ta parameter(input) thakle
+//console.log(doubleIt(5));
 
 const doubleIt = num => num * 2; //1ta parameter(input) thakle
 const add = (x, y) => x + y; //akadhik thakle () diye
